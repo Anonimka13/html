@@ -1,0 +1,21 @@
+body {
+    font-family: Arial,  Monospace; /* Семейство шрифтов */
+    font-size: 11px; /* Размер основного шрифта в <p></p>  */
+    background-color: #eabaff; /* Цвет фона веб-страницы */
+    color: #aa00ff; /* Цвет основного текста */ 
+}
+h1 {
+    color: #a800c6; /* Цвет заголовка */
+    font-size: 30px; /* Размер шрифта в пунктах */
+    font-family: Georgia, Italic; /* Семейство шрифтов */
+}
+
+@keyframes color-change {
+  0%   { color: blue; }
+  50%  { color: red; }
+  100% { color: blue; }
+}
+
+h1:hover{
+  animation: color-change 3s infinite;
+}
